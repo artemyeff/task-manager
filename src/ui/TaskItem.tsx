@@ -1,4 +1,4 @@
-import { type Task } from "../dal/api-fake";
+import { type Task } from "../dal/api";
 import styles from "./TaskItem.module.css";
 import clsx from "clsx";
 

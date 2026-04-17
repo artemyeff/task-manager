@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getTasks, type Task } from "../dal/api-fake";
+import { getTasks, type Task } from "../dal/api";
 
 export function useTasks() {
     const [tasks, setTasks] = useState<Array<Task> | null>(null);

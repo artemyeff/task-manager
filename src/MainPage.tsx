@@ -22,6 +22,7 @@ export function MainPage() {
 
   return (
     <div>
+      <h1>Trelly</h1>
       <div className={className}>
         <TaskList selectId={selectedTaskId} onSelected={handleSelectTaskId} />
         <TaskDetails boardId={boardId} taskId={selectedTaskId} />
